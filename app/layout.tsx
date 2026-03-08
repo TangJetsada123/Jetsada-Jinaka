@@ -17,19 +17,6 @@ const fontMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Jetsada Jinaka | Software Engineer',
   description: 'Ground Station Software Engineer specializing in satellite communications, telemetry processing, and mission-critical software development',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export default function RootLayout({
